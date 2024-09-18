@@ -7,8 +7,10 @@ export default function UserPage() {
                 <div className="backcont">
                     <button className="back">Back</button>
                 </div>
-                <div className="sections"></div>
-                <div className="useroutlet"></div>
+                <div className="userinfo">
+                    <div className="sections"></div>
+                    <div className="useroutlet"></div>    
+                </div> 
             </div>
         </>
     )
