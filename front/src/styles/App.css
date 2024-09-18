@@ -1,0 +1,8 @@
+.btn {
+    width: 20vw;
+    height: 5vh;
+}
+.main {
+    display: grid;
+    justify-content: center;
+}

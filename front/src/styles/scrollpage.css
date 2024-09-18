@@ -1,0 +1,47 @@
+.mainscroll {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
+.cont {
+    display: flex;
+    width: 100%;
+}
+.filters {
+    width: 18vw;
+    height: 40vh;
+    background-color: white;
+    margin: 10px;
+    position: sticky;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+.scroller {
+    display: grid;
+    justify-content: center;
+    width: 40vw;
+    height: 120vh;
+    margin: 0 6vw 0 6vw;
+    background-color: rgb(98, 98, 186);
+    padding-top: 20px;
+
+}
+.news {
+    width: 18vw;
+    height: 40vh;
+    background-color: white;
+    margin: 10px;
+    position: sticky;
+    border-radius: 15px;
+}
+.scrollitem {
+    background-color: rgb(67, 152, 173);
+    width: 30vw;
+    height: min-content;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+}

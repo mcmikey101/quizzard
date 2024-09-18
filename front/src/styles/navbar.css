@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    height: min-content;
+    padding: 10px;
+    background-color: rgb(93, 198, 93);
+    border-radius: 100px;
+    margin-bottom: 10vh;
+}
+.logo {
+    font-size: 1.2em;
+}
+.searchbar {
+    padding-left: 20px;
+    width: 25vw;
+    border-radius: 100px;
+    font-size: 2em;
+}
+.profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
