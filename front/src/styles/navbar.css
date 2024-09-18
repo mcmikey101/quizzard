@@ -1,15 +1,18 @@
 .navbar {
     display: flex;
     justify-content: space-between;
+    place-items: center;
     width: 90vw;
-    height: min-content;
+    height: 6vh;
     padding: 10px;
-    background-color: rgb(93, 198, 93);
+    padding-left: 30px;
+    background-color: #53A2BE;
     border-radius: 100px;
     margin-bottom: 10vh;
+    margin-top: 20px;
 }
 .logo {
-    font-size: 1.2em;
+    font-size: 1.8em;
 }
 .searchbar {
     padding-left: 20px;

@@ -25,8 +25,9 @@
     width: 40vw;
     height: 120vh;
     margin: 0 6vw 0 6vw;
-    background-color: rgb(98, 98, 186);
-    padding-top: 20px;
+    background-color: #97C7D8;
+    padding-top: 40px;
+    border-radius: 30px;
 
 }
 .news {
@@ -43,5 +44,6 @@
     height: min-content;
     border-radius: 30px;
     padding: 10px;
+    padding-left: 40px;
     margin-bottom: 10px;
 }
