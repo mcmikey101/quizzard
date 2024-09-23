@@ -1,14 +1,14 @@
 import './styles/App.css'
 import './comps/NavBar.tsx'
-import ScrollPage from './comps/scrollpage.tsx'
 import NavBar from './comps/NavBar.tsx'
+import { Outlet } from 'react-router-dom'
 
 function App() {
   return (
     <>
       <div className="main">
         <NavBar/>
-        <ScrollPage/>
+        <Outlet/>
       </div>
     </>
   )

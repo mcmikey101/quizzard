@@ -1,5 +1,5 @@
 import '../styles/scrollpage.css'
-
+import Entry from './Entry';
 interface ScrollItem {
     text: string;
     description: string;
@@ -58,12 +58,7 @@ export default function ScrollPage() {
                         {
                         Object.entries(items).map((i) => {
                             return (
-                                <>
-                                    <div className="scrollitem">
-                                        <p className="itemname">{i[1].text}</p>
-                                        <p className="description">{i[1].description}</p>
-                                    </div>
-                                </>
+                                <Entry key={i[0]} item={i[1]}/>
                             )
                         })
                         }
