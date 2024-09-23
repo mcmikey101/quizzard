@@ -23,12 +23,11 @@
     display: grid;
     justify-content: center;
     width: 40vw;
-    height: 120vh;
+    height: min-content;
     margin: 0 6vw 0 6vw;
     background-color: #97C7D8;
-    padding-top: 40px;
+    padding-top: 20px;
     border-radius: 30px;
-
 }
 .news {
     width: 18vw;
@@ -46,4 +45,5 @@
     padding: 10px;
     padding-left: 40px;
     margin-bottom: 10px;
+    font-size: 1.4em;
 }

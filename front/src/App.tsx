@@ -1,14 +1,18 @@
+import { useState } from 'react'
 import './styles/App.css'
-import './comps/NavBar.tsx'
-import ScrollPage from './comps/scrollpage.tsx'
+import Outlet from './comps/Outlet.tsx'
 import NavBar from './comps/NavBar.tsx'
 
 function App() {
+  const [page, setPage] = useState('home')
+  function routeTo(page: string = 'home') {
+    setPage(page)
+  }
   return (
     <>
       <div className="main">
-        <NavBar/>
-        <ScrollPage/>
+        <NavBar routeTo={routeTo}/>
+        <Outlet page={page} routeTo={routeTo}/>
       </div>
     </>
   )
