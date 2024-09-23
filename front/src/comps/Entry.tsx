@@ -1,10 +1,11 @@
 interface EntryProps {
     item: {
         text: string;
-        description: string;
-    };
+        description: string
+    }
     key: string;
 }
+
 
 export default function Entry(props: EntryProps) {
     return (

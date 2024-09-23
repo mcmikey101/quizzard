@@ -1,16 +1,15 @@
 import '../styles/userpage.css'
+import { Link } from 'react-router-dom'
 
-interface UserPageProps {
-    routeTo(page: string): void;
-}
-
-export default function UserPage(props: UserPageProps) {
+export default function UserPage() {
     return (
         <>
             <p>UserPage</p>
             <div className="userpage">
                 <div className="backcont">
-                    <button className="back" onClick={() => props.routeTo('home')}>Back</button>
+                    <button className="back">
+                        <Link to='/'>Back</Link>
+                    </button>
                 </div>
                 <div className="userinfo">
                     <div className="sections"></div>
