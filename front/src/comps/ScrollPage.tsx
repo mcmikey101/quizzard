@@ -79,7 +79,7 @@ export default function ScrollPage() {
                     <div className="scroller">
                         {
                             Object.entries(items).map((i) => {
-                                if (filters.indexOf(i[1].type) > -1) {
+                                if (filters.indexOf(i[1].type) > -1 || filters.length == 0) {
                                     return (
                                         <Entry key={i[0]} item={i[1]}/>
                                     )

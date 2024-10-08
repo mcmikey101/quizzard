@@ -3,6 +3,6 @@
     height: 5vh;
 }
 .main {
-    display: grid;
-    justify-content: center;
+    display: flex;
+    place-items: center;
 }
